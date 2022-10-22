@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 31, 61);
+}
+
+.geral{
+    align-items: center;
+    display: flex;
+}
+
+:root {
+    --cor: none;
+    --cor2: none;
+}
+
+#grid{
+    width: 700px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    border: 11px solid #12A440;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pixel {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: right;
+}
+
+.pixel:hover {
+    background-color: var(--cor);
+}
+
+.menu {
+    display: block;
+    width: 20px;
+}
+
+.entradas{
+    width: 40px;
+    text-align: center;
+    text-decoration: double;
+}

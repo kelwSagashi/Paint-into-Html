@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint into Html</title>
+    <link rel="stylesheet" href="StyleBitMaker.css">
+</head>
+<body>
+    <main class="geral">    
+        <section class="menu" id="menu">
+            <input type="number" id="largura" value="16" class="entradas">
+            <input type="number" id="altura" value="16" class="entradas">
+            <input type="number" id="brushsize" value="1" class="entradas">
+            <button class="button" onclick="setWidthHeight()">criar</button>
+        </section>
+        <div id="grid" unselectable="on"></div>  
+    </main>
+</body>
+<script src="bitMaker.js"></script>
+</html>
